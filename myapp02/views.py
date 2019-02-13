@@ -46,9 +46,9 @@ def userinfo(request):
     pagpermission = BasePagPermission(request.permission_code_url)  # 实例化
     # print("code......", request.permission_code_url)
     data_list = [
-        {"id": 1, "user": "admin"},
-        {"id": 2, "user": "qq"},
-        {"id": 3, "user": "jd"},
+        {"id": 1, "name": "admin"},
+        {"id": 2, "name": "qq"},
+        {"id": 3, "neam": "jd"},
 
     ]
     #print("data_list",data_list)
